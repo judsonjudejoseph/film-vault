@@ -38,7 +38,7 @@ useEffect(()=>{
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/film-vault">
         <Navbar />
 
         <Routes>
